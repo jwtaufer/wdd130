@@ -24,11 +24,11 @@ Fonts are separated by a | */
   --paragraph-font: pokemongb, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #016498;  /* headlines on a white background */ 
+  --headline-color-on-white: #F1BE0D;  /* headlines on a white background */ 
   --headline-color-on-color: #FEFEFE; /* headlines on a colored background */ 
   --paragraph-color-on-white: #016498; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FEFEFE; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #F1BE0D  ;
+  --paragraph-background-color: #016498  ;
   --nav-link-color: #FEFEFE;
   --nav-background-color: #016498;
   --nav-hover-link-color: #FEFEFE;
@@ -52,6 +52,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  text-shadow: 0px 0px 8px black;
 }
 h2 {
   text-align: center;
