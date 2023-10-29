@@ -28,8 +28,8 @@ Fonts are separated by a | */
   --headline-color-on-color: #FEFEFE; /* headlines on a colored background */ 
   --paragraph-color-on-white: #016498; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FEFEFE; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #016498  ;
-  --nav-link-color: #016498;
+  --paragraph-background-color: #F1BE0D  ;
+  --nav-link-color: #FEFEFE;
   --nav-background-color: #E23830;
   --nav-hover-link-color: #FEFEFE;
   --nav-hover-background-color: #016498;
