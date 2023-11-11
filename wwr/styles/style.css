@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap');
 
+#arizona {
+    grid-row: 4/5;
+}
+#arizona img{
+    float: right;
+}
 #background{
     height: 725px;
     background-color: #616161;
@@ -34,10 +40,50 @@
     text-align: center;
     color: #fefefe;
 }
+#idaho {
+    grid-row: 2/3;
+    grid-template-rows: auto;
+}
+#idaho h2 {
+    grid-row: 1/2;
+}
+#idaho p{
+    /* margin: 5px; */
+    grid-row: 2/3;
+}
+#idaho img{
+    float: right;
+    grid-row: 2/3;
+}
 #logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+#page-2 {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 5px;
+    padding: 5px;
+}
+#page-2 div {
+    padding: 5px;
+}
+#page-2 img {
+    max-width: 250px;
+    padding: 5px;
+}
+#rivers-title {
+    grid-row: 1/2;
+}
+#utah {
+    grid-row: 3/4;
+}
+#utah h2 {
+    text-align: right;
+}
+#utah img {
+    float: left;
 }
 .book, .join{
     background-color:#5bba6f;
@@ -70,7 +116,7 @@
     opacity: .6;
     transform: scale(1.1);
 }
-.home-title {
+.home-title, .rivers-title {
     color: #616161;
     font-family: "Permanent Marker", arial, sans-serif;
     font-size: 2em;
@@ -125,6 +171,13 @@
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
+.rivers-title {
+    text-align: center;
+    background-color: #616161;
+    color: #fefefe;
+    /* grid-row: 1/2; */
+    /* z-index: 2; */
+}
 body{
     background-color: #fefefe;
     font-size: 22px;
@@ -165,6 +218,10 @@ header{
 }
 h2{
     margin: 0;
+    color:#616161;
+    font-family: /* "Permanent Marker", */ arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
 h4{
     color: #616161;
