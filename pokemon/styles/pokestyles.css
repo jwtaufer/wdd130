@@ -1,0 +1,21 @@
+/* importations */
+
+@font-face {
+    font-family: pocketmonk;
+    src: url('/wdd130/pokemon/fonts/PocketMonk-15ze.ttf');
+}
+@font-face {
+    font-family: pokemongb;
+    src: url('/wdd130/pokemon/fonts/PokemonGb-RAeo.ttf')
+}
+
+/* site-wide styles */
+
+h1, h2, h3, h4, h5, h6, #nav {
+    font-family: pocketmonk;
+    color: #F1BE0D;
+    text-shadow: 0px 0px 8px black;
+}
+p {
+    font-family: pokemongb;
+}
