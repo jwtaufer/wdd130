@@ -11,11 +11,79 @@
 
 /* site-wide styles */
 
-h1, h2, h3, h4, h5, h6, #nav {
-    font-family: pocketmonk;
+header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: #016498;
+    border-radius: 10px;
+    /* position: fixed; */
+    width: 100%;
+}
+#logo-box {
+    grid-column: 1/2;
+    padding: 10px;
+}
+nav {
+    grid-column: 2/3;
+    text-align: right;
+    padding: 25px;
+}
+nav a {
     color: #F1BE0D;
     text-shadow: 0px 0px 8px black;
+    text-decoration: none;
+    font-size: 4em;
+    padding: 25px;
+    margin: 0 auto;
+}
+nav a:hover {
+    /* color:#606E6A; */
+    background-color: #FEFEFE;
+}
+h1, h2, h3, h4, h5, h6, nav a {
+    font-family: pocketmonk;
 }
 p {
     font-family: pokemongb;
+}
+footer {
+    background-color: #016498;
+    color: #FEFEFE;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+footer p {
+    display: inline;
+    padding: 10px;
+}
+footer a {
+    color:#FEFEFE;
+    padding: 10px;
+}
+footer a:hover {
+    background-color: #FEFEFE;
+    color: #606E6A;
+    padding: 10px;
+}
+
+/* home-page styles */
+
+#home-grid {
+    display: grid;
+    grid-template-columns: auto 500px;
+}
+#content-box {
+    grid-column: 1/2;
+    border: 7px double;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
+}
+#content-box img {
+    float: left;
+}
+#professor-oak-box {
+    grid-column: 2/3;
 }
