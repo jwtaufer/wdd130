@@ -16,8 +16,9 @@ header {
     grid-template-columns: 100px auto;
     background-color: #016498;
     border-radius: 10px;
-    /* position: fixed; */
-    width: 100%;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 99%; /* Full width */
 }
 #logo-box {
     grid-column: 1/2;
@@ -39,6 +40,9 @@ nav a {
 nav a:hover {
     /* color:#606E6A; */
     background-color: #FEFEFE;
+}
+main{
+    margin-top: 122px;
 }
 h1, h2, h3, h4, h5, h6, nav a {
     font-family: pocketmonk;
