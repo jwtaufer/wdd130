@@ -91,3 +91,19 @@ footer a:hover {
 #professor-oak-box {
     grid-column: 2/3;
 }
+
+/* red&blue-page styles */
+
+#pokedex-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.pokemon-box {
+    border: 7px double;
+    border-radius: 10px;
+    margin: 2.5px;
+    padding: 5px;
+}
+/* div {
+    border: 1px solid green;
+} */
