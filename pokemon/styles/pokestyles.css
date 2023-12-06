@@ -97,7 +97,7 @@ footer a:hover {
     grid-column: 2/3;
 }
 
-/* red&blue-page styles */
+/* pokedex-page styles */
 
 #pokedex-page {
     display: grid;
@@ -112,4 +112,35 @@ footer a:hover {
 .pokemon-box img {
     float: right;
     width: 150px;
+}
+
+/* red&blue-page styles */
+
+#redblue-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#red-box {
+    grid-column: 1/2;
+    margin: 5px;
+    padding: 5px;
+}
+#red-box img {
+    float: right;
+}
+#blue-box {
+    grid-column: 2/3;
+    margin: 5px;
+    padding: 5px;
+}
+#blue-box img {
+    float: left;
+}
+#redblue-description {
+    grid-column: 1/3;
+    border: 7px double;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
 }
